@@ -1,0 +1,333 @@
+@font-face {
+  font-family: SourceCodeBold;
+  src: url("../font/SourceCodePro-Bold.ttf");
+}
+
+@font-face {
+  font-family: SourceCodeLight;
+  src: url("../font/SourceCodePro-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "SourceCodeLight", "sans-serif";
+  font-size: 20px;
+  width: 100%;
+  background-color: #05001e;
+  color: #ffffff;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.row {
+  background: rgb(255, 64, 101);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 64, 101, 1) 0%,
+    rgba(85, 219, 255, 1) 100%
+  );
+  padding: 4px;
+}
+
+.container {
+  width: 50rem;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+
+.container:before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: url("../images/triangle.svg");
+  position: absolute;
+  top: -84px;
+  left: -69px;
+  background-repeat: no-repeat;
+  animation: scaleTriangle 1.6s ease infinite alternate,
+    normalTriangle 1.6s linear infinite alternate;
+}
+
+.container:after {
+  content: "";
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  background: #fff;
+  bottom: -30px;
+  right: -50px;
+  z-index: -1;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.8);
+  animation: scaleSquare 1.6s ease infinite alternate,
+    normalSquare 1.6s linear infinite alternate;
+}
+
+.content {
+  padding: 50px 30px;
+  background: #05001e;
+}
+
+.logo img {
+  width: 24rem;
+  margin: 0 auto -12px;
+}
+
+.email {
+  font-size: 45px;
+  margin: 70px 0 12px;
+}
+
+.email strong,
+.soon strong,
+.slogan strong {
+  font-family: "SourceCodeBold", "sans-serif";
+}
+
+.soon {
+  font-size: 40px;
+}
+
+.disc {
+  width: 8rem;
+  height: 8rem;
+  position: fixed;
+  top: -3rem;
+  right: -3rem;
+  background-color: #ff4065;
+  box-shadow: 0 0 16px rgba(255, 64, 101, 0.8);
+  border-radius: 50%;
+  animation: discToBottom 1.6s ease infinite alternate,
+    discToTop 1.6s linear infinite alternate;
+}
+
+.circle {
+  width: 20rem;
+  height: 19rem;
+  position: fixed;
+  bottom: -10rem;
+  left: -10rem;
+  border: 20px solid #55dbff;
+  box-shadow: 0 0 16px rgba(85, 219, 255, 0.8);
+  border-radius: 50%;
+  animation: circleToBottom 1.6s ease infinite alternate,
+    circleToTop 1.6s linear infinite alternate;
+}
+
+/*************************************************/
+/******************** Animation ******************/
+/*************************************************/
+@keyframes circleToBottom {
+  from {
+    bottom: -10rem;
+  }
+  to {
+    bottom: -11rem;
+  }
+}
+@keyframes circleToTop {
+  from {
+    bottom: -11rem;
+  }
+  to {
+    bottom: -10rem;
+  }
+}
+
+@keyframes discToBottom {
+  from {
+    top: -3rem;
+  }
+  to {
+    top: -4rem;
+  }
+}
+@keyframes discToTop {
+  from {
+    top: -4rem;
+  }
+  to {
+    top: -3rem;
+  }
+}
+
+@keyframes scaleSquare {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes normalSquare {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleTriangle {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes normalTriangle {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/**************************************************/
+/******************** Responsive ******************/
+/**************************************************/
+@media only screen and (max-width: 1030px) {
+  .container {
+    width: 36rem;
+  }
+
+  .container:before {
+    width: 140px;
+    height: 140px;
+    top: -70px;
+    left: -54px;
+  }
+
+  .logo img {
+    width: 18rem;
+  }
+
+  .slogan span {
+    font-size: 18px;
+  }
+
+  .email {
+    font-size: 30px;
+  }
+
+  .soon {
+    font-size: 26px;
+  }
+
+  .content {
+    padding: 40px 30px;
+  }
+
+  .container:after {
+    width: 100px;
+    height: 100px;
+    bottom: -25px;
+    right: -41px;
+  }
+
+  .circle {
+    width: 14rem;
+    height: 14rem;
+    bottom: -10rem;
+    left: -7rem;
+    border: 16px solid #55dbff;
+  }
+
+  .disc {
+    top: -4rem;
+    right: -4rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 30rem;
+  }
+
+  .content {
+    padding: 30px;
+  }
+
+  .logo img {
+    width: 16rem;
+  }
+
+  .slogan span {
+    font-size: 16px;
+  }
+
+  .email {
+    font-size: 26px;
+    margin: 40px 0 12px;
+  }
+
+  .soon {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+
+  .logo img {
+    width: 12rem;
+  }
+
+  .slogan span {
+    font-size: 14px;
+  }
+
+  .email {
+    font-size: 20px;
+    margin: 30px 0 12px;
+  }
+
+  .soon {
+    font-size: 18px;
+  }
+
+  .container:before {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: -40px;
+  }
+
+  .container:after {
+    width: 80px;
+    height: 80px;
+    bottom: -20px;
+    right: -30px;
+  }
+
+  .disc {
+    top: -3rem;
+    right: -3rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .circle {
+    width: 10rem;
+    height: 10rem;
+    bottom: -7rem;
+    left: -5rem;
+    border: 12px solid #55dbff;
+  }
+}
