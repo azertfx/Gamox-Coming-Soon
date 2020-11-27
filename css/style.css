@@ -91,13 +91,8 @@ body {
 }
 
 .email strong,
-.soon strong,
 .slogan strong {
   font-family: "SourceCodeBold", "sans-serif";
-}
-
-.soon {
-  font-size: 40px;
 }
 
 .disc {
@@ -224,10 +219,6 @@ body {
     font-size: 30px;
   }
 
-  .soon {
-    font-size: 26px;
-  }
-
   .content {
     padding: 40px 30px;
   }
@@ -274,10 +265,6 @@ body {
     font-size: 26px;
     margin: 40px 0 12px;
   }
-
-  .soon {
-    font-size: 20px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -296,10 +283,6 @@ body {
   .email {
     font-size: 20px;
     margin: 30px 0 12px;
-  }
-
-  .soon {
-    font-size: 18px;
   }
 
   .container:before {
