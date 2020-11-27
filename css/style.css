@@ -87,7 +87,7 @@ body {
 
 .email {
   font-size: 45px;
-  margin: 70px 0 12px;
+  margin: 70px 0 0;
 }
 
 .email strong,
@@ -263,7 +263,7 @@ body {
 
   .email {
     font-size: 26px;
-    margin: 40px 0 12px;
+    margin: 40px 0 0;
   }
 }
 
@@ -282,7 +282,7 @@ body {
 
   .email {
     font-size: 20px;
-    margin: 30px 0 12px;
+    margin: 30px 0 0;
   }
 
   .container:before {
