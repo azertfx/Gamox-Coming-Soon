@@ -1,11 +1,3 @@
-/*
-================================================================
-* Template:  	 Callum - Personal Portfolio HTML Template
-* Written by: 	 Harnish Design - (http://www.harnishdesign.net)
-* Description:   Main Custom Script File
-================================================================
-*/
-
 
 (function ($) {
 	"use strict";
@@ -48,14 +40,14 @@ $('.smooth-scroll').on('click', function() {
 	event.preventDefault();
     var sectionTo = $(this).attr('href');
 	$('html, body').stop().animate({
-      scrollTop: $(sectionTo).offset().top}, 1500, 'easeInOutExpo');
+      scrollTop: $(sectionTo).offset().top}, 400, 'easeInOutExpo');
 });
    }else {
 $('.smooth-scroll').on('click', function() {
 	event.preventDefault();
     var sectionTo = $(this).attr('href');
 	$('html, body').stop().animate({
-      scrollTop: $(sectionTo).offset().top - 50}, 1500, 'easeInOutExpo');
+      scrollTop: $(sectionTo).offset().top - 50}, 400, 'easeInOutExpo');
 });
 }
 
@@ -245,7 +237,7 @@ var typed = new Typed('.typed', {
 	loop: true,
 	typeSpeed: 100,
     backSpeed: 50,
-	backDelay: 1500,
+	backDelay: 400,
 });
 });
 
