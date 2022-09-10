@@ -2772,7 +2772,7 @@ hr {
   background: #fff;
   color: #252b33;
   padding: 66px 0px;
-  padding: 4.125rem 0;
+  padding: 16px 0 12px;
 }
 
 #footer .nav .nav-item {
