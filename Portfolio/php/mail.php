@@ -1,13 +1,5 @@
 <?php
 
-/*--------------------------------------------------
-
-	Name: 			Contact Form
-	Written by: 	Harnish Design
-	Website: 		http://www.harnishdesign.net
-
-----------------------------------------------------*/
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -20,15 +12,15 @@ require './phpmailer/src/SMTP.php';
   // Receiver's Email
 --------------------------------------------- */
 
-$toEmail = "your-email@website.com"; // Replace Your Email Address
+$toEmail = "nabaoui.abderrahim@gmail.com";
 
 
 /* --------------------------------------------
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "no-reply@website.com";  // Replace Company's Email Address (preferably currently used Domain Name)
-$fromName = "Company Name"; // Replace Company Name
+$fromEmail = "nabaoui.abderrahim@gmail.com";
+$fromName = "Abderrahim Nabaoui";
 
 
 /* --------------------------------------------
