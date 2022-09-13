@@ -38,6 +38,31 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.skills:hover {
+  cursor: default;
+  background: white;
+  color: #212529;
+}
+
+.skills {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.cvBtn {
+  background: #f5df4e;
+  color: #212529;
+}
+
+.cvBtn:hover {
+  background: #212529;
+  color: #f5df4e;
+}
+
+.cvBtn:focus {
+  color: white;
+}
+
 /*-------- Preloader --------*/
 .preloader {
   position: fixed;
