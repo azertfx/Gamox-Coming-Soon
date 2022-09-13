@@ -52,6 +52,7 @@ body {
 .cvBtn {
   background: #f5df4e;
   color: #212529;
+  margin-top: 15px;
 }
 
 .cvBtn:hover {
