@@ -20,7 +20,7 @@
     padding: 0;
     margin-top: 0;
     margin-bottom: 0.8rem;
-    color: #4c4d4d;
+    color: #110144;
     border-radius: 0;
   }
   &.style-1, &.style-2, &.style-3 {
@@ -240,10 +240,10 @@
   }
   &:not(.accordion-flush) .accordion-header .accordion-button {
     background-color: $primary-color;
-    color:#212529;
+    color:#110144;
     &.collapsed {
       background-color: rgba(0, 0, 0, 0.06);
-      color: #4c4d4d;
+      color: #110144;
     }
   }
   .accordion-header .accordion-button {
@@ -295,7 +295,7 @@
       border-top: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 0px;
 	  background: transparent;
-	  color: #212529;
+	  color: #110144;
     }
     .accordion-item:first-of-type .accordion-header .accordion-button {
       border-top: 0px;
@@ -362,11 +362,11 @@
 
 .nav .nav-item .nav-link{color: rgba(0, 0, 0, 0.4);}
 .nav.nav-light .nav-item .nav-link{color: #ddd;}
-.nav:not(.nav-pills) .nav-item .nav-link.active, .nav:not(.nav-pills) .nav-item .nav-link:hover{color: #212529;}
+.nav:not(.nav-pills) .nav-item .nav-link.active, .nav:not(.nav-pills) .nav-item .nav-link:hover{color: #110144;}
 
 
 .nav-pills .nav-link:not(.active):hover{color:#000;}
-.nav-pills .nav-link.active,.nav-pills.nav-light .nav-link.active, .nav-pills .show > .nav-link{color:#212529;}
+.nav-pills .nav-link.active,.nav-pills.nav-light .nav-link.active, .nav-pills .show > .nav-link{color:#110144;}
 
 .nav.nav-separator .nav-item .nav-link{position:relative;}
 .nav.nav-separator .nav-item + .nav-item .nav-link:after{

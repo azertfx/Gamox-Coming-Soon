@@ -38,32 +38,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.skills:hover {
-  cursor: default;
-  background: white;
-  color: #212529;
-}
-
-.skills {
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.cvBtn {
-  background: #f5df4e;
-  color: #212529;
-  margin-top: 15px;
-}
-
-.cvBtn:hover {
-  background: #212529;
-  color: #f5df4e;
-}
-
-.cvBtn:focus {
-  color: white;
-}
-
 /*-------- Preloader --------*/
 .preloader {
   position: fixed;
@@ -575,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-dark-1 {
-  background-color: #212529 !important;
+  background-color: #110144 !important;
 }
 
 .bg-dark-2 {
@@ -1033,7 +1007,7 @@ hr {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #3c3636;
+  background: #110144;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -1821,7 +1795,7 @@ hr {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0.8rem;
-  color: #4c4d4d;
+  color: #110144;
   border-radius: 0;
 }
 
@@ -2150,12 +2124,12 @@ hr {
 
 .accordion:not(.accordion-flush) .accordion-header .accordion-button {
   background-color: #f5df4e;
-  color: #212529;
+  color: #110144;
 }
 
 .accordion:not(.accordion-flush) .accordion-header .accordion-button.collapsed {
   background-color: rgba(0, 0, 0, 0.06);
-  color: #4c4d4d;
+  color: #110144;
 }
 
 .accordion .accordion-header .accordion-button:after {
@@ -2209,7 +2183,7 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0px;
   background: transparent;
-  color: #212529;
+  color: #110144;
 }
 
 .accordion.accordion-flush .accordion-item:first-of-type .accordion-header .accordion-button {
@@ -2286,7 +2260,7 @@ hr {
 }
 
 .nav:not(.nav-pills) .nav-item .nav-link.active, .nav:not(.nav-pills) .nav-item .nav-link:hover {
-  color: #212529;
+  color: #110144;
 }
 
 .nav-pills .nav-link:not(.active):hover {
@@ -2294,7 +2268,7 @@ hr {
 }
 
 .nav-pills .nav-link.active, .nav-pills.nav-light .nav-link.active, .nav-pills .show > .nav-link {
-  color: #212529;
+  color: #110144;
 }
 
 .nav.nav-separator .nav-item .nav-link {
@@ -3464,13 +3438,13 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .btn-primary {
   background-color: #f5df4e;
   border-color: #f5df4e;
-  color: #212529;
+  color: #110144;
 }
 
 .btn-primary:hover {
   background-color: #f3d92c;
   border-color: #f3d92c;
-  color: #212529;
+  color: #110144;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
@@ -3501,7 +3475,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active:hover, .btn-outline-primary:not(:disabled):not(.disabled):active:hover {
   background-color: #f5df4e;
   border-color: #f5df4e;
-  color: #212529;
+  color: #110144;
 }
 
 .btn-outline-secondary {
