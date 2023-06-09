@@ -1,5 +1,6 @@
 {
 	"active" : false,
+	"close" : true,
 	"image" : "https://freecodegenerators.azureedge.net/images/diableadblock.png",
 	"link" : "https://json2csharp.com/"
 }
