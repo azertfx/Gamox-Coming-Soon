@@ -1,12 +1,14 @@
-[
-	{
-		"packageName" : "com.gamox.skibidi.toilet.dop.tower",
-		"gameText" : "com.gamox.skibidi.toilet.dop.tower",
-		"active" : true,
-		"exit" : true,
-		"published" : false,
-		"temp" : false,
-		"image" : "https://gamox.ma/newgame.png",
-		"link" : "https://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.towerhttps://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.tower"
-	}
-]
+{
+    [
+        {
+            "packageName" : "com.gamox.skibidi.toilet.dop.tower",
+            "gameText" : "com.gamox.skibidi.toilet.dop.tower",
+            "active" : true,
+            "exit" : true,
+            "published" : false,
+            "temp" : false,
+            "image" : "https://gamox.ma/newgame.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.towerhttps://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.tower"
+        }
+    ]
+}
