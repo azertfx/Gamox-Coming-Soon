@@ -2,13 +2,13 @@
     "GameInfo" : [
         {
             "packageName" : "com.skibidi.toilet.run.war.attack",
-            "gameText" : "New Game Play it Now",
-            "active" : false,
+            "gameText" : "New Skibidi Toilet Game Play it Now",
+            "active" : true,
             "exit" : true,
             "published" : true,
             "temp" : false,
-            "image" : "https://gamox.ma/newgame.png",
-            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.tower"
+            "image" : "https://gamox.ma/runwar.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.skibidi.toilet.vs.tvman.attack"
         },
         {
             "packageName" : "com.fantasy.tree.monster.makeover",
