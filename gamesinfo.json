@@ -35,7 +35,7 @@
             "gameText" : "New Skibidi Toilet Game Play it Now",
             "active" : true,
             "exit" : true,
-            "published" : true,
+            "published" : false,
             "temp" : false,
             "image" : "https://gamox.ma/tvman.png",
             "link" : "https://play.google.com/store/apps/details?id=com.skibidi.toilet.vs.tvman.attack"
