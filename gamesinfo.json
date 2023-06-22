@@ -33,9 +33,9 @@
         {
             "packageName" : "com.gamox.skibidi.toilet.dop.tower",
             "gameText" : "New Skibidi Toilet Game Play it Now",
-            "active" : false,
+            "active" : true,
             "exit" : true,
-            "published" : false,
+            "published" : true,
             "temp" : false,
             "image" : "https://gamox.ma/tvman.png",
             "link" : "https://play.google.com/store/apps/details?id=com.skibidi.toilet.vs.tvman.attack"
