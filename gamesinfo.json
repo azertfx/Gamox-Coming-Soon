@@ -15,7 +15,7 @@
             "gameText" : "New Game Play it Now",
             "active" : false,
             "exit" : true,
-            "published" : false,
+            "published" : true,
             "temp" : false,
             "image" : "https://gamox.ma/newgame.png",
             "link" : "https://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.tower"
@@ -23,7 +23,7 @@
         {
             "packageName" : "com.skibidi.toilet.vs.tvman.attack",
             "gameText" : "New Game Play it Now",
-            "active" : false,
+            "active" : true,
             "exit" : true,
             "published" : true,
             "temp" : false,
