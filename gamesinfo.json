@@ -8,17 +8,17 @@
             "published" : true,
             "temp" : false,
             "image" : "https://gamox.ma/tvman.png",
-            "link" : "https://play.google.com/store/apps/details?id=com.skibidi.toilet.vs.tvman.attack"
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
         },
         {
             "packageName" : "com.fantasy.tree.monster.makeover",
             "gameText" : "New Game Play it Now",
-            "active" : false,
+            "active" : true,
             "exit" : true,
             "published" : true,
             "temp" : false,
-            "image" : "https://gamox.ma/newgame.png",
-            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skibidi.toilet.dop.tower"
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
         },
         {
             "packageName" : "com.skibidi.toilet.vs.tvman.attack",
@@ -27,8 +27,8 @@
             "exit" : true,
             "published" : true,
             "temp" : false,
-            "image" : "https://gamox.ma/mixmonster.png",
-            "link" : "https://play.google.com/store/apps/details?id=com.fantasy.tree.monster.makeover"
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
         },
         {
             "packageName" : "com.gamox.skibidi.toilet.dop.tower",
@@ -38,7 +38,7 @@
             "published" : true,
             "temp" : false,
             "image" : "https://gamox.ma/tvman.png",
-            "link" : "https://play.google.com/store/apps/details?id=com.skibidi.toilet.vs.tvman.attack"
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
         },
         {
             "packageName" : "com.gamox.skybydy.series.toilet.shorts",
