@@ -1,6 +1,54 @@
 {
-    "admobInterstitialID" : "ca-app-pub-3940256099942544/1033173712",
-    "admobRewardedID" : "ca-app-pub-3940256099942544/5224354917",
-    "iosInterstitialID" : "ca-app-pub-3940256099942544/1033173712",
-    "iosRewardedID" : "ca-app-pub-3940256099942544/5224354917"
+    "GameInfo" : [
+        {
+            "packageName" : "com.skibidi.toilet.run.war.attack",
+            "gameText" : "New Skibidi Toilet Game Play it Now",
+            "active" : true,
+            "exit" : true,
+            "published" : true,
+            "temp" : false,
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
+        },
+        {
+            "packageName" : "com.fantasy.tree.monster.makeover",
+            "gameText" : "New Game Play it Now",
+            "active" : true,
+            "exit" : true,
+            "published" : true,
+            "temp" : false,
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
+        },
+        {
+            "packageName" : "com.skibidi.toilet.vs.tvman.attack",
+            "gameText" : "New Game Play it Now",
+            "active" : true,
+            "exit" : true,
+            "published" : true,
+            "temp" : false,
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
+        },
+        {
+            "packageName" : "com.gamox.skibidi.toilet.dop.tower",
+            "gameText" : "New Skibidi Toilet Game Play it Now",
+            "active" : true,
+            "exit" : true,
+            "published" : true,
+            "temp" : false,
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.gamox.skybydy.series.toilet.shorts"
+        },
+        {
+            "packageName" : "com.gamox.skybydy.series.toilet.shorts",
+            "gameText" : "New Skibidi Toilet Game Play it Now",
+            "active" : false,
+            "exit" : true,
+            "published" : true,
+            "temp" : false,
+            "image" : "https://gamox.ma/tvman.png",
+            "link" : "https://play.google.com/store/apps/details?id=com.skibidi.toilet.vs.tvman.attack"
+        }
+    ]
 }
